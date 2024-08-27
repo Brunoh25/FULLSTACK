@@ -1,0 +1,18 @@
+#saudacao{
+    color:red;
+    font-size:18pt
+}
+#nome{
+    color:blue;
+    font-size:18pt
+}
+.exemplo{
+    color:green;
+    font-size:18pt;
+}
+div p{
+    font-size:10pt;
+}
+a:hover{
+    color:red
+}
