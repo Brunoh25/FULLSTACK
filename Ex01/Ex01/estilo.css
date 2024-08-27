@@ -1,0 +1,18 @@
+a{
+    color:blue;
+    font-weight: bolder;
+}
+a:hover{
+    color:royalblue
+}
+#nome{
+    font-weight: bolder;
+    font-style: oblique;
+}
+table, tr, td {
+    border: 1px solid;
+}
+.titulo{
+    font-weight: bolder;
+    font-style: oblique;
+}
