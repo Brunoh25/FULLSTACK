@@ -17,3 +17,11 @@ li{
 p{
     font-size:15pt;
 }
+.menu{
+    background-color: white;
+    position: fixed;
+    left: 5px;
+    top: 0px;
+    bottom: 5px;
+    height: 20px;
+}
