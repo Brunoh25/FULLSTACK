@@ -1,75 +1,50 @@
+*{
+    flex-wrap: wrap;
+}
 body{
     background-color:lightgray;
 }
 #cabeca{
+    display: flex;
     background-color: bisque;
     border: 3px solid darkblue;
     height: 200px;
     width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #c{
-    position: absolute;
     height: 180px;
     width: 180px;
-    left: 2%;
-    top: 2%;
 }
 #titulo{
-    position: absolute;
     font-size: 30px;
     color: darkgreen;
     font-weight: bolder;
-    left: 46%;
-    top: 60px;
+    margin-top: 80px;
 }
 #java{
-    position: absolute;
     height: 180px;
     width: 180px;
-    right: 2%;
-    top: 2%;
 }
 #menu{
-    position: absolute;
+    display: flex;
     background-color: lightskyblue;
-    top:214px;
     height: 25px;
-    width: 2533px;
+    width: 100%;
+    justify-content: space-around;
 }
-#home{
+#menu div{
+    margin-top: 7px;
     color: darkred;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bolder;
-    position: absolute;
-    left: 35%;
-}
-#livros{
-    color: darkred;
-    font-size: 10px;
-    font-weight: bolder;
-    position: absolute;
-    left: 45%;
-}
-#videos{
-    color: darkred;
-    font-size: 10px;
-    font-weight: bolder;
-    position: absolute;
-    left: 55%;
-}
-#contatos{
-    color: darkred;
-    font-size: 10px;
-    font-weight: bolder;
-    position: absolute;
-    left: 65%;
-    
 }
 h1{
-    position: relative;
+    display: flex;
     font-size: 25px;
-    top:10px;
-    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
 }
 p{
     font-family: sans-serif;
@@ -77,48 +52,46 @@ p{
     color:purple;
     text-align: center;
 }
+#imgs{
+    display: flex;
+    justify-content: space-around;
+}
 #proj{
-    position: relative;
     height: 518px;
     width: 350px;
-    left: 15%;
-    top: 20px;
+    margin-top: 20px;
 }
 #theC{
-    position: relative;
     height: 518px;
     width: 422.44px;
-    left: 27.5%;
-    top: 20px;
+    margin-top: 20px;
 }
 #Java2{
-    position: relative;
     height: 518px;
     width: 361.56px;
-    left: 40%;
-    top: 20px;
+    margin-top: 20px;
+}
+#frames{
+    display: flex;
+    justify-content: space-around;
 }
 #video{
     height: 400px;
     width: 400px;
-    position: relative;
-    left: 30%;
-    top: 20px;
+    margin-top: 20px;
 }
 #mapa{
     height: 400px;
     width: 400px;
-    position: relative;
-    left: 37.5%;
-    top: 20px;
+    margin-top: 20px;
 }
 #topo{
     color: red;
 }
 #tabela{
-    position: relative;
-    left: 42%;
-    top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     text-align: center;
     border: 3px dashed red;
 }
@@ -152,30 +125,27 @@ li{
     left: 20px;
 }
 #rodape{
+    display: flex;
     background-color: bisque;
     height: 150px;
     width: 100%;
-    position: relative;
-    top: 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 100px;
 }
 #HTML{
-    position: absolute;
     height: 120px;
     width: 120px;
-    top: 2%;
+    margin-top: 10px;
 }
 #desc{
     font-family:cursive;
-    position: absolute;
     font-size: 20px;
-    left: 42%;
-    top: 15pt;
     color: black;
+    margin-top: 50px;
 }
 #css{
-    position: absolute;
     height: 120px;
     width: 85px;
-    right: 1%;
-    top: 2%;
+    margin-top: 10px;
 }
