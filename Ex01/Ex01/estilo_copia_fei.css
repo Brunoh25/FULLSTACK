@@ -1,3 +1,7 @@
+
+*{
+    flex-wrap: wrap;
+}
 #topo_pag{
     display: flex;
     background-color: gray;
