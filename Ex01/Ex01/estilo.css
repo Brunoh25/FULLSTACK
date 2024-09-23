@@ -1,17 +1,51 @@
+body{
+    background-color:papayawhip
+}
+*{
+    flex-wrap: wrap;
+}
+#topo{
+    background-color:dodgerblue;
+    width: 100%;
+    height: 25px;
+}
+.paginas{
+    font-size: large;
+    color:white;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+.paginas:hover{
+    color:black
+}
 a{
     color:blue;
-    font-weight: bolder;
 }
 a:hover{
-    color:royalblue
+    color:skyblue;
+}
+#eu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 #nome{
     font-size: 20px;
     font-weight: bolder;
     font-style: oblique;
 }
-table, tr, td {
-    border: 1px solid;
+#corpo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    border: 2px dashed ;
+}
+tr, td{
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
 }
 .titulo{
     font-weight: bolder;
@@ -20,4 +54,23 @@ table, tr, td {
 .destaque{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
+}
+#local{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mapa:hover{
+    width: 500px;
+    height: 375px;
+}
+#videos{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ul{
+    margin-left: 5%;
 }
