@@ -1,0 +1,115 @@
+*{
+    flex-wrap: wrap;
+}
+#logo{
+    margin-left: 10%;
+}
+#menu{
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-right: 0px;
+    border-left: 0px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu div{
+    width: 80px;
+    text-align: center;
+    font-size: smaller;
+    margin-left: 40px;
+}
+#imgs{
+    display: flex;
+    flex-direction: row;
+}
+#churrasco{
+    margin-left: 10%;
+}
+#categ{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+#categ div{
+    margin-left: 10px;
+}
+.laranja{
+    color: orange;
+}
+#negrito{
+    font-weight: bold;
+}
+h1{
+    margin-left: 10%;
+}
+#imgs2{
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#todas_rec{
+    border: 1px gray solid;
+    width: 126px;
+    height: 175px;
+}
+.todas_rec2{
+    border: 1px gray solid;
+    width: 126px;
+    height: 175px;
+    margin-left: 20px;
+}
+#imgs2 .todas_rec div{
+    width: 80px;
+    margin-left: 10px;
+}
+h2{
+    margin-top: 50px;
+    color: orange;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.receitas{
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.forma{
+    margin-left: 10px;
+    flex-direction: column;
+}
+.titulo{
+    font-weight: bold;
+    font-size: large;
+}
+.texto{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.aval{
+    flex-direction: row;
+}
+#rodape{
+    margin-top: 100px;
+    background-color: lightgray;
+    height: 200px;
+}
+#logo2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+#lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#lista div{
+    margin: 20px;
+}
