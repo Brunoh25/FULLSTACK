@@ -6,10 +6,10 @@
         <link href="estilo_guess.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Adivinhação</h1>
         <div id="formatacao">
-            <p>Olá, vamos jogar um jogo de adivinhação, eu vou pensar em um número de 0 a 99 e você vai digitar qual número acha que é, depois vai apertar o botão JOGAR.</p>
-            <p>Caso você acerte o número ele irá aparecer destacado em verde, caso erre irá aparecer destacado em vermelho.</p>
+            <h1>Adivinhação</h1>
+            <p>Olá, vamos jogar um jogo de adivinhação, eu vou pensar em um número de <span class="destaque">0 a 99</span> e você vai digitar qual número acha que é, depois vai apertar o botão <span class="destaque">JOGAR</span>.</p>
+            <p>Caso você acerte o número ele irá aparecer destacado em <span id="verde">verde</span>, caso erre irá aparecer destacado em <span id="vermelho">vermelho</span>.</p>
             <p>Pode parecer complicado mas não se preocupe, você tem quantas tentativas precisar, e eu vou te dar algumas dicas.</p>
             <p>Insira um número: <input type="number" id="i"></p>
             <input type="button" value="JOGAR" onclick="jogar()"><br>

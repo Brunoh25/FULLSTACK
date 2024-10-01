@@ -5,7 +5,7 @@ function jogar(){
     let num=parseInt(document.getElementById("i").value);
     if(num==num_ger){
         document.getElementById("resp").innerHTML="Parabéns, você acertou!";
-        document.getElementById("resp").style.setProperty("background-color", "green");
+        document.getElementById("resp").style.setProperty("background-color", "lightgreen");
     }
     else if(num<num_ger && num>=0){
         document.getElementById("resp").innerHTML="Esse número é muito baixo!";
@@ -14,7 +14,7 @@ function jogar(){
             lista_menor=num;
         }
         else{
-            lista_menor=lista_menor+","+num;
+            lista_menor=lista_menor+" , "+num;
         }
         document.getElementById("abaixo").innerHTML=lista_menor;
         document.getElementById("abaixo").style.setProperty("background-color", "grey");
@@ -26,7 +26,7 @@ function jogar(){
             lista_maior=num;
         }
         else{
-            lista_maior=lista_maior+","+num;
+            lista_maior=lista_maior+" , "+num;
         }
         document.getElementById("acima").innerHTML=lista_maior;
         document.getElementById("acima").style.setProperty("background-color", "grey");
