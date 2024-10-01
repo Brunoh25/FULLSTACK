@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adivinhação</title>
+        <meta charset="utf-8"></meta>
+        <link href="estilo_guess.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Adivinhação</h1>
+        <div id="formatacao">
+            <p>Olá, vamos jogar um jogo de adivinhação, eu vou pensar em um número de 0 a 99 e você vai digitar qual número acha que é, depois vai apertar o botão JOGAR.</p>
+            <p>Caso você acerte o número ele irá aparecer destacado em verde, caso erre irá aparecer destacado em vermelho.</p>
+            <p>Pode parecer complicado mas não se preocupe, você tem quantas tentativas precisar, e eu vou te dar algumas dicas.</p>
+            <p>Insira um número: <input type="number" id="i"></p>
+            <input type="button" value="JOGAR" onclick="jogar()"><br>
+            <br><div id="resp"></div>
+            <p>Tentativas abaixo do número:</p>
+            <div id="abaixo"></div>
+            <p>Tentativas acima do número:</p>
+            <div id="acima"></div>
+        </div>
+
+        <script src="script_guess.js" type="text/javascript"></script> 
+    </body>
+</html>

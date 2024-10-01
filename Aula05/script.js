@@ -23,3 +23,4 @@ else{
 let entrada=prompt("Coloque um número inteiro:");
 for(entrada;entrada>0;entrada--){
     console.log(entrada);
+}
