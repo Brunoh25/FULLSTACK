@@ -25,7 +25,7 @@ canv.closePath();
 
 function desenhar_arco(x, y ,r, ang1, ang2, cor_int,cor_ext,canv){
 canv.beginPath();
-canv.lineWidth = 10;
+canv.lineWidth = 2;
 canv.strokeStyle = cor_ext;
 canv.fillStyle = cor_int;
 canv.arc(x, y ,r, ang1, ang2);
@@ -36,10 +36,10 @@ canv.closePath();
 
 function escrever(x, y, texto, cor_int,cor_ext,canv){
 canv.beginPath();
-canv.lineWidth = 10;
+canv.lineWidth = 2;
 canv.strokeStyle = cor_ext;
 canv.fillStyle = cor_int;
-canv.font = "25px Arial";
+canv.font = "30px Arial";
 canv.strokeText(texto,x,y);
 canv.fillText(texto,x,y);
 canv.closePath();
@@ -61,15 +61,27 @@ canv.closePath();
 /////////////////////////////////
 desenhar_retângulo(0,0,60,60,'blue',ctx);
 desenhar_retângulo(340,0,60,60,'red',ctx);
-desenhar_retângulo(0,340,30,60,'yellow',ctx);
-desenhar_retângulo(0,370,60,30,'yellow',ctx);
-desenhar_retângulo(370,340,30,60,'black',ctx);
-desenhar_retângulo(340,370,60,30,'black',ctx);
-desenhar_retângulo(200,200,-60,60,'red',ctx);
+desenhar_retângulo(0,400,40,-80,'yellow',ctx);
+desenhar_retângulo(0,400,80,-40,'yellow',ctx);
+desenhar_retângulo(400,400,-40,-80,'black',ctx);
+desenhar_retângulo(400,400,-80,-40,'black',ctx);
+desenhar_retângulo(200,200,-50,50,'red',ctx);
+desenhar_retângulo(0,150,40,100,'aqua',ctx);
+desenhar_retângulo(400,180,-40,40,'aqua',ctx);
 desenhar_linha(200,200,200,400,'black',ctx);
 desenhar_linha(0,200,400,200,'green',ctx);
 desenhar_linha(0,0,200,200,'blue',ctx);
 desenhar_linha(400,0,200,200,'red',ctx);
+desenhar_arco(200,200,80,Math.PI,2*Math.PI,'transparent','green',ctx);
+desenhar_arco(200,200,110,1.75*Math.PI,2*Math.PI,'transparent','green',ctx);
+desenhar_arco(200,200,110,Math.PI,1.25*Math.PI,'transparent','green',ctx);
+desenhar_arco(200,155,20,0,2*Math.PI,'aqua','blue',ctx);
+desenhar_arco(100,290,20,0,2*Math.PI,'yellow','green',ctx);
+desenhar_arco(300,290,20,0,2*Math.PI,'yellow','green',ctx);
+desenhar_arco(200,400,80,1.5*Math.PI,2*Math.PI,'transparent','green',ctx);
+desenhar_arco(200,400,110,Math.PI,1.5*Math.PI,'transparent','green',ctx);
+desenhar_arco(200,400,50,Math.PI,2*Math.PI,'aqua','green',ctx);
+escrever(145,60,'Canvas','black','transparent',ctx);
 
 /////////////////////////////////
 desenhar_retângulo(0,300,400,100,'grey',ctx2);
