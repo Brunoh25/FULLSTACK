@@ -33,7 +33,7 @@ document.addEventListener("mousemove",function(evento){
         bola.x=340;
     }
     else{
-        bola.x=x_mouse-25;
+        bola.x=x_mouse-30;
     }
     if(y_mouse<0){
         bola.y=0;
@@ -42,6 +42,6 @@ document.addEventListener("mousemove",function(evento){
         bola.y=340;
     }
     else{
-        bola.y=y_mouse-25;
+        bola.y=y_mouse-30;
     }
 })
