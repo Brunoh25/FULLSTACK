@@ -1,0 +1,36 @@
+body{
+    background-color: papayawhip;
+}
+#formatacao{
+    text-align: center;
+}
+#resp{
+    display: inline;
+    margin-top: 10px;
+}
+#abaixo{
+    display: inline;
+    color: white;
+}
+#acima{
+    display: inline;
+    color: white;
+}
+p{
+    font-size: large;
+}
+#formatacao div{
+    font-size: large;
+    font-weight: bold;
+}
+.destaque{
+    font-weight: bold;
+}
+#vermelho{
+    background-color: red;
+    font-weight: bold;
+}
+#verde{
+    background-color: lightgreen;
+    font-weight: bold;
+}

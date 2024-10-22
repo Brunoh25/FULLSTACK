@@ -1,0 +1,139 @@
+
+*{
+    flex-wrap: wrap;
+}
+#topo_pag{
+    display: flex;
+    background-color: gray;
+    color:darkgray;
+    justify-content: center;
+    flex-direction: row;
+}
+#topo_pag div{
+    margin: 10px;
+}
+#menu{
+    display: flex;
+    background-color: darkblue;
+    color:white;
+    justify-content: center;
+    flex-direction: row;
+}
+#menu div{
+    font-size: small;
+    margin: 5px;
+    padding: 5px;
+}
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#jesuitas{
+    margin-right: 380px;
+}
+#pesq{
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding:10px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+#fale{
+    background-color: limegreen;
+    color: white;
+    padding:10px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+#whats{
+    background-color: limegreen;
+    color: white;
+    padding:10px;
+    padding-left: 30px;
+    margin-right: 10px;
+}
+#acesso{
+    background-color: skyblue;
+    color: white;
+    padding:10px;
+}
+#titulo{
+    color: darkblue;
+    text-align: center;
+    margin-top: 100px;
+}
+#imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+#proj{
+    color: orange;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#projetos{
+    display: flex;
+    color:grey;
+    justify-content: center;
+    flex-direction: row;
+}
+#projetos div{
+    padding: 25px;
+}
+#robo_fei2{
+    color: darkblue;
+}
+#robos{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: row;
+}
+#robos2{
+    margin-left: 25px;
+    width: 800px;
+}
+#titulo2{
+    color: darkblue;
+}
+#robo_fei{
+    font-size: large;
+}
+#saiba{
+    border: 1px solid darkblue;
+    width: 70px;
+    color: darkblue;
+    padding:10px;
+}
+#divisao{
+    margin-top: 50px;
+    background-color: rgb(70, 70, 180);
+    height: 100px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: gray;
+}
+#info div{
+    margin-top: 50px;
+    padding: 25px;
+}
+#end{
+    display: flex;
+    flex-direction: column;
+}
+.lugar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.endereco{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}

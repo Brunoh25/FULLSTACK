@@ -1,0 +1,19 @@
+body{
+    background-color: papayawhip;
+}
+#canvas{
+    background-color: white;
+    border: 1px solid black;
+}
+#canvas2{
+    margin-top: 50px;
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
