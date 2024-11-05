@@ -3,5 +3,22 @@
     "colors": "^1.4.0",
     "ejs": "^3.1.10",
     "express": "^4.21.1"
-  }
+  },
+  "name": "fullstack",
+  "description": "Conteudo de aulas, exercícios resolvidos, atividades realizadas e projeto final.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunoh25/FULLSTACK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunoh25/FULLSTACK/issues"
+  },
+  "homepage": "https://github.com/Brunoh25/FULLSTACK#readme"
 }
