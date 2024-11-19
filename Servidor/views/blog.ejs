@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dados do usuário</title>
+        <link href="estilo_blog.css" rel="stylesheet">
+    </head>
+    <body>
+        <a id="criar" href="/pagina_inicial">Criar Post</a>
+        <% for (var i =0; i <= items.length;  i++ ) { %>
+            <div>
+                <%= items[i].db_titulo %>
+                <%= items[í].db_resumo %>
+                <%= items[i].db_conteudo %>
+            </div>
+            <% } %>
+    </body>
+</html>

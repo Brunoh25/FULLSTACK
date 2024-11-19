@@ -97,14 +97,30 @@ app.post("/logar_usuario", function(req, resp) {
 });
 
 app.post("/cad_blog", function(req, resp) {
-
     // salva dados no banco
-    client.db("BrunoH").collection("usuarios").insertOne(
-      { db_titulo: titulo, db_resumo: resumo, db_conteudo: conteudo}, function (err) {
+    client.db("BrunoH").collection("blogs").insertOne(
+      { db_titulo: req.body.titulo, db_resumo:req.body.resumo, db_conteudo: req.body.conteudo}, function (err) {
       if (err) {
         resp.render('resposta1.ejs',{resposta: 'Falha',mensagem:"Erro ao cadastrar blog!"})
       }else {
         resp.render('resposta1.ejs', {resposta: 'Sucesso',mensagem: "Blog cadastrado com sucesso!"})       
       };
     });
+});
+
+app.get("/pagina_inicial",function(req, resp) {
+  resp.redirect('blog.html');
+});
+
+app.get("/busca_blog", function(req, resp) {
+  // busca blogs no banco de dados
+  client.db("BrunoH").collection("blogs").find(
+    ).toArray(function(err, items) {
+      console.log(items);
+      if (err) {
+        resp.render('resposta.ejs', {resposta:"Falha",mensagem: "Erro ao buscar blogs!"})
+      }else {
+        resp.render("blog.ejs",{items});     
+      }; 
+  });
 });
