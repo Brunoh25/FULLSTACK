@@ -11,5 +11,6 @@ body{
     text-align: center;
 }
 #criar{
+    display: block;
     text-align: center;
 }

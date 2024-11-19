@@ -17,3 +17,7 @@ div{
     flex-direction: column;
     align-items: center;
 }
+#conteudo{
+    display: flex;
+    justify-content: center;
+}
